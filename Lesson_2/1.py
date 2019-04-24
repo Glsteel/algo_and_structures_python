@@ -9,3 +9,21 @@
 Также сообщать пользователю о невозможности деления на ноль,
 если он ввел 0 в качестве делителя.
 """
+while True:
+    znak = input('Введите знак операции, либо 0 для выхода: ', )
+    if znak == '0':
+        print('Работа завершена')
+        break
+    chislo1 = float(input('Введите число 1: ', ))
+    chislo2 = float(input('Введите число 2: ', ))
+    elif znak == '+':
+        print('Сумма чисел равна: ', chislo1 + chislo2)
+    elif znak == '-':
+        print('Разность чисел равна: ', chislo1 - chislo2)
+    elif znak == '*':
+        print('Произведение чисел равно: ', chislo1 * chislo2)
+    elif znak == '+':
+        print('Сумма чисел равна: ', chislo1 + chislo2)
+    elif znak == '/':
+        print('Частное от деления числа1 на число2 равно: ', chislo1 / chislo2)
+
